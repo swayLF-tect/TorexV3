@@ -115,20 +115,20 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) tran
   margin-right: auto;
 }
 </style>
-    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/skip.js').then(r => r.text()).then(r => eval(r))"
+    <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/skip.js').then(r => r.text()).then(r => eval(r))"
     class="button">Skip Lesson</button>
     
-    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/minfarm.js').then(r => r.text()).then(r => eval(r))" 
+    <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/minfarm.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Min Farmer</button>
     
-    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/timer.js').then(r => r.text()).then(r => eval(r))" 
+    <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/timer.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Timer</button>
 
-    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/hecks/diag.js').then(r => r.text()).then(r => eval(r))" 
+    <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/diag.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Diag Hack</button>
     <br>
     <br>
-    <button onclick="fetch('https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
+    <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/misc/misc.js').then(r => r.text()).then(r => eval(r))" 
     class="button">Misc</button>
 </div>`
 
@@ -154,7 +154,7 @@ document.addEventListener('keydown', function(event) {
 
 // app 21 chunk override consts
 const originalScript = "https://cdn.i-ready.com/instruction/student-dashboard/release-13.4.x/2/static/js/app-21.chunk.js";
-const modifedScript = "https://raw.githubusercontent.com/ArjhanT0teck/radiant/main/src/appchunk/app-21-min.js";
+const modifedScript = "https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/appchunk/app-21-min.js";
 const scriptLocationOnLoad = document.scripts[12].src;
 
 // override app-21.chunk.js to add custom hooks
