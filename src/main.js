@@ -35,7 +35,7 @@ function dragElement(e) {
 var UI = document.createElement("div");
 UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) translateY(-32px); opacity: 0.85; font-family: sans-serif; height: 215px; width: 124px; background: rgb(30, 30, 30); position: absolute; border-radius: 5px; display: grid; place-items: center; color: white; font-size: larger; top: 104px; left: 577px; position:absolute; z-index: 99999;">
     <div class="image">
-    <img src="https://img.favpng.com/2/11/21/security-hacker-wi-fi-protected-access-password-cracking-wired-equivalent-privacy-png-favpng-sP0KriQFvm6gj6zgGe5sNsp2L.jpg" class="center">
+    <img src="https://media.discordapp.net/attachments/979572870885802015/1075563000997625897/download_3.png" class="center">
     <h1 class="title"><center>TorexV3</center>
     </h1>
 <style>
