@@ -118,7 +118,7 @@ UI.innerHTML = `<div id="GUI" class="GUI" style="transform: translateX(0px) tran
     <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/skip.js').then(r => r.text()).then(r => eval(r))"
     class="button">Skip Lesson</button>
     
-    <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/minfarm.js').then(r => r.text()).then(r => eval(r))" 
+    <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/minfarm.js).then(r => r.text()).then(r => eval(r))" 
     class="button">Min Farmer</button>
     
     <button onclick="fetch('https://raw.githubusercontent.com/swayLF-tect/TorexV3/main/src/hecks/timer.js').then(r => r.text()).then(r => eval(r))" 
@@ -185,4 +185,3 @@ setInterval(function(){if(document.getElementById('coin-amount').innerHTML!==loc
         document.getElementById('coin-amount').innerHTML=localStorage.coins
     }
 }},1000)
-
